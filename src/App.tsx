@@ -18,36 +18,12 @@ function App() {
   const [nextHeartId, setNextHeartId] = useState(0);
 
   const photos = [
-    {
-      url: "src/images/photo3.jpg",
-      caption: "What a beautiful smile😊 you have Babu❤️"
-    },
-    {
-      url: "src/images/IMG_20250127_153123_101.jpg",
-      caption: "You're my cutipie Aashu Baby❤️"
-    },
-    {
-      url: "src/images/IMG_20250225_223622_484.jpg",
-      caption: "Look at you my sweetheart❤️"
-    },
-    {
-      url: "src/images/IMG_20250225_223613_015.jpg",
-      caption: "🎊 Happy Birthday memories 🎊"
-    },
-    {
-      url: "src/images/photo8.jpg",
-      caption: "Beautiful day outdoors"
-    },
-    // {
-    //   url: "src/images/IMG_20250225_223634_760.jpg",
-    //   caption: "🥰"
-    // },
-    // {
-    //   url: "src/images/6d5ee49870f00152a65e829204fdeb1b.webp",
-    //   caption: "🥰"
-    // }
-    
-  ];
+    { url: "/images/photo3.jpg", caption: "What a beautiful smile😊 you have Babu❤️" },
+    { url: "/images/IMG_20250127_153123_101.jpg", caption: "How cute you are my cutiepie❤️" },
+    { url: "/images/IMG_20250225_223622_484.jpg", caption: "Look at you my sweetheart, you look amazing in saree❤️" },
+    { url: "/images/IMG_20250225_223613_015.jpg", caption: "🎊 Happy Birthday memories 🎊" },
+    { url: "/images/photo8.jpg", caption: "Beautiful day outdoors" }
+];
 
   const loveQuotes = [
     "Distance means so little when someone means so much.",
